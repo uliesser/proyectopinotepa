@@ -1,0 +1,204 @@
+/*Inicio de CSS para proyecto web*/
+/*Programación web */
+/*Hoja de estilo principal */
+
+html, 
+body 
+{ 
+    width: 100%; 
+    background-image: linear-gradient(to right, #ff05ea, #c40099);
+}
+
+*
+{
+    margin: auto;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*cabecera del documento*/
+header
+{
+    background-color: #ff00aa;
+    border-radius: 20px;
+}
+
+header h1
+{
+    text-align: center;
+    color: #ffffff;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+
+header h2
+{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.1em;
+}
+
+.logo
+{
+    width: 15%;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+body div.logo img
+{
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+/*Nav*/
+
+
+nav
+{
+    background-color: #ff00bf;
+    min-height: 3.5em ;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    float: center;
+    border-radius: 10px;
+}
+
+/*Inicio del menú*/
+#menu  
+{  
+    text-align: center;
+    font-size: 0.7em;
+    width: 820px;
+    margin: 20px auto;    
+}
+   
+#menu ul 
+{
+    list-style-type: none;
+}
+
+#menu ul li.nivel1 
+{ 
+    float: left;
+    width: 162px;
+    margin-right: 2px;   
+}
+    
+#menu ul li a 
+{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #a5e62cc9;
+    border: solid 1px #fff;
+    padding: 8px;
+    position: relative;    
+}
+    
+#menu ul li:hover 
+{
+    position: relative;
+}
+    
+#menu ul li a:hover, 
+#menu ul li:hover a.nivel1
+{
+    background-color: #6CC;
+    color: #000;
+    position: relative;    
+}
+    
+#menu ul li a.nivel1 
+{
+    display: block!important;display: none;
+    position: relative;  
+}
+    
+#menu ul li ul 
+{
+    display: none;  
+}
+    
+#menu ul li a:hover ul, 
+#menu ul li:hover ul 
+{
+    display: block;
+    position: absolute;
+    left: 0px;
+}
+    
+#menu ul li ul li a 
+{
+    width: 160px;
+    padding: 6px 0px 8px 0px;
+    border-top-color: #000;    
+}
+
+#menu ul li ul li a:hover 
+{
+    border-top-color: #000;
+    position: relative;    
+}
+    
+/*sector principal*/
+section article
+{
+    width: 70%;
+    float:right;
+    margin: 10px;
+    margin-right: 50px;
+    padding: 20px;
+    background-color: navajowhite;
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
+
+section article p
+{
+    text-align: justify;
+    font-size: 1em;
+
+}
+
+section article img
+{
+    width: auto;
+    margin: 20px 10px 0px 350px; /*arriba derecha abajo izquierda*/
+    border-radius: 20px;
+} 
+
+section article figcaption p
+{
+    text-align: center;
+    font-size: 13px;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+footer
+{
+    clear: both;
+    Width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0px 10px 0px;
+    background-color: #022b42;
+    text-align: center;
+    border-radius: 20px;
+}
+
+footer p
+{
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,227 @@
+*
+{
+    margin: auto;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, 
+body 
+{ 
+    width: 100%; 
+    background: url(../images/background/calaveritas.jpg) ;    
+}
+
+
+/*cabecera del documento*/
+header
+{
+    border-radius: 20px;
+    background-color: #ff00aa;
+}
+
+header h1
+{
+    text-align: center;
+    color: #ffffff;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+
+.logo
+{
+    width: 15%;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    
+}
+
+body div.logo img
+{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+nav
+{
+    background-color: #ff00bf;
+    min-height: 3.5em ;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    float: center;
+}
+
+/*Inicio del menÃº*/
+#menu  
+{  
+    text-align: center;
+    font-size: 0.7em;
+    width: 820px;
+    margin: 20px auto;
+}
+   
+#menu ul 
+{ 
+    list-style-type: none;
+}
+
+#menu ul li.nivel1 
+{ 
+    float: left;
+    width: 162px;
+    margin-right: 2px;   
+}
+    
+#menu ul li a 
+{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #a5e62cc9;
+    border: solid 1px #fff;
+    padding: 8px;
+    position: relative;    
+}
+    
+#menu ul li:hover 
+{
+    position: relative;
+}
+    
+#menu ul li a:hover, 
+#menu ul li:hover a.nivel1
+{
+    background-color: #6CC;
+    color: #000;
+    position: relative;    
+}
+    
+#menu ul li a.nivel1 
+{
+    display: block!important;display: none;
+    position: relative;  
+}
+    
+#menu ul li ul 
+{
+    display: none;  
+}
+    
+#menu ul li a:hover ul, 
+#menu ul li:hover ul 
+{
+    display: block;
+    position: absolute;
+    left: 0px;
+}
+    
+#menu ul li ul li a 
+{
+    width: 160px;
+    padding: 6px 0px 8px 0px;
+    border-top-color: #000;    
+}
+
+#menu ul li ul li a:hover 
+{
+    border-top-color: #000;
+    position: relative;    
+}
+
+.titulo
+{
+    width: 50%;
+    text-align: center;
+    font-size: 2.5em;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.contenedor
+{
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5px;
+    width: 80%;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 20px ;   
+    background-color: rgba(255, 255, 255, 0.6);
+
+}
+
+.desarrollador
+{
+    border: 0px;
+    margin: 5px;
+    width: 45%;
+    background: none;
+    float: left;
+    border-radius: 20px;
+}
+
+.diseñador
+{
+    
+    border: 0px;
+    margin: 5px;
+    width: 45%;
+    background: none;
+    float: right;
+    border-radius: 20px; 
+}
+
+.testimonios
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 6em;
+    color: black;
+    font-style: italic;
+}
+
+.comillas
+{
+    font-size: 15em;
+    color: rgb(230, 0, 0);
+    margin: 5px;
+    border: 0px;
+}
+
+.cont-parrafo
+{
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transform: translateY(-60%);
+    text-align: justify;
+    font-size: 1.8em;
+    margin: 0px 20px 0px 20px;
+    padding: 0px 15px 0px 0px ;
+}
+
+footer
+{
+    clear: both;
+    Width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0px 10px 0px;
+    background-color: #022b42;
+    text-align: center;
+    border-radius: 20px;
+}
+
+footer p
+{
+    text-align: center;
+    color: #fff;
+}

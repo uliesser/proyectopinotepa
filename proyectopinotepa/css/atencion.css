@@ -1,0 +1,388 @@
+*
+{
+    margin: auto;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*cabecera del documento*/
+header
+{
+    border-radius: 20px;
+    background-color: #ff00aa;
+}
+
+header h1
+{
+    text-align: center;
+    color: #ffffff;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+
+.logo
+{
+    width: 15%;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    
+}
+
+body div.logo img
+{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+nav
+{
+    background-color: #ff00bf;
+    min-height: 3.5em ;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    float: center;
+}
+
+/*Inicio del menÃº*/
+
+#menu  
+{  
+    text-align: center;
+    font-size: 0.7em;
+    width: 820px;
+    margin: 20px auto;
+}
+   
+#menu ul 
+{ 
+    list-style-type: none;
+}
+
+#menu ul li.nivel1 
+{ 
+    float: left;
+    width: 162px;
+    margin-right: 2px;   
+}
+    
+#menu ul li a 
+{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #a5e62cc9;
+    border: solid 1px #fff;
+    padding: 8px;
+    position: relative;    
+}
+    
+#menu ul li:hover 
+{
+    position: relative;
+}
+    
+#menu ul li a:hover, 
+#menu ul li:hover a.nivel1
+{
+    background-color: #6CC;
+    color: #000;
+    position: relative;    
+}
+    
+#menu ul li a.nivel1 
+{
+    display: block!important;display: none;
+    position: relative;  
+}
+    
+#menu ul li ul 
+{
+    display: none;  
+}
+    
+#menu ul li a:hover ul, 
+#menu ul li:hover ul 
+{
+    display: block;
+    position: absolute;
+    left: 0px;
+}
+    
+#menu ul li ul li a 
+{
+    width: 160px;
+    padding: 6px 0px 8px 0px;
+    border-top-color: #000;    
+}
+
+#menu ul li ul li a:hover 
+{
+    border-top-color: #000;
+    position: relative;    
+}
+
+
+/* Formatear el formulario de clientes a dos columnas */
+body 
+{
+    background-image: linear-gradient(to right, #ff05ea, #c40099);}
+  
+.izquierda 
+{
+    float: left;
+    clear: left;  
+}
+  
+.derecha 
+{
+    float: right;
+    clear: right;
+}
+
+ol 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor 
+{
+    background-image:linear-gradient(to left,#99cc00, #597504);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin: 1em auto;
+    padding: 1em;
+    width: 768px;
+}
+
+span.requerido 
+{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #C00;
+}
+  
+h2 
+{
+    font: normal 2em arial, sans-serif;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+  
+ol li.botones 
+{
+    border-top: 2px solid #CCC;
+    clear: both;
+    float: none;
+    padding: 1em 0;
+    margin-top: 1em;
+    text-align: right;
+    width: 100%;
+}
+
+ol li.botones input 
+{
+    font-size: 1.3em;
+}
+  
+ol li 
+{
+    margin: 0.5em 0;
+    padding: 0.5em;
+    width: 46%;
+}
+
+ol li label.titulo 
+{
+    font-weight: bold;
+}
+
+ol li div span 
+{
+    float: left;
+    padding: 0.3em 0;
+}
+
+ol li div span.completo 
+{
+    width: 100%;
+}
+
+ol li div span.mitad 
+{
+    width: 50%;
+}
+
+ol li div span.tercio 
+{
+    width: 33%;
+}
+
+ol li div span.dostercios 
+{
+    width: 66%;
+}
+
+ol li div span label 
+{
+    display: block;
+    font: normal 0.8em arial, sans-serif;
+    color: #333;
+}
+
+ol li p.ayuda 
+{
+    display: none;
+}
+
+ol li input 
+{
+    padding: 0.2em;
+    border-radius: 10px;
+}
+
+input#apellido1, 
+input#apellido2, 
+input#direccion, 
+input#email 
+{
+    width: 260px;
+    border-radius: 10px;
+}
+
+input#codigopostal 
+{
+    width: 80px;
+}
+
+select#provincia 
+{
+    width: 90px;
+    border-radius: 10px;
+}
+
+select#pais 
+{
+    width: 150px;
+    border-radius: 10px;
+}
+
+input#telefonofijo, input#telefonomovil 
+{
+    width: 135px;
+}
+
+/* Cambiar el color en el :hover y resaltar los campos en el :focus */
+ol li:hover 
+{
+    background-color: #FF9;
+}
+
+ol li.botones:hover 
+{
+    background-color: transparent;
+}
+
+ol li input:focus 
+{
+    border: 2px solid #E6B700;
+}
+
+/* Formatear el formulario a una columna */
+ol li.izquierda, ol li.derecha 
+{
+    float: none;
+    width: auto;
+}
+
+ol li 
+{
+    overflow: hidden;
+}
+
+ol li label.titulo 
+{
+    float: left;
+    width: 150px;
+}
+
+ol li div 
+{
+    margin-left: 160px;
+}
+
+/* Aspecto final del formulario con los mensajes de ayuda */
+h2 
+{
+    margin-bottom: 0.3em;
+}
+
+ol li 
+{
+    border-top: 1px solid #CCC;
+    margin: 0;
+    padding: 1em;
+}
+
+ol li.botones 
+{
+    margin: 0;
+}
+
+ol li label.titulo 
+{
+    text-align: right;
+    width: 100px;
+}
+
+ol li div 
+{
+    margin-left: 110px;
+    overflow: hidden;
+}
+
+ol li 
+{
+    position: relative;
+}
+
+ol li:hover p.ayuda 
+{
+    display: block;
+    margin: 0.3em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+}
+  
+
+footer
+{
+    clear: both;
+    Width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0px 10px 0px;
+    background-color: #022b42;
+    text-align: center;
+    border-radius: 20px;
+}
+
+footer p
+{
+    text-align: center;
+    color: #fff;
+}
